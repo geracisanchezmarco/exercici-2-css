@@ -1,0 +1,195 @@
+
+/* ESTILOS GENERALES */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #222222;
+    background-color: #ffffff;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+h2 {
+    color: #17365d;
+    font-size: 24px;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #2874b2;
+}
+
+section {
+    padding: 25px;
+    margin: 0;
+}
+
+
+/* CABECERA Y MENÚ */
+
+header {
+    background-color: #17365d;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin: 0 0 10px 0;
+}
+
+header p {
+    font-size: 18px;
+    margin: 0 0 20px 0;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    width: 220px;
+    margin: 5px auto;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #214b78;
+}
+
+nav a.activo {
+    background-color: #2874b2;
+}
+
+nav a:hover {
+    color: #87cefa;
+}
+
+
+/* IMAGEN PRINCIPAL */
+
+.imagen-montana {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+/* SECCIÓN INICIO */
+
+#inicio {
+    background-color: #eaf4fc;
+}
+
+#inicio h2 {
+    color: #17365d;
+    border-bottom: 2px solid #2874b2;
+}
+
+
+/* SECCIÓN SOBRE MÍ */
+
+#sobre-mi {
+    background-color: #ffffff;
+}
+
+#sobre-mi h2 {
+    color: #17365d;
+    border-bottom: 2px solid #2874b2;
+}
+
+
+/* SECCIÓN MIS AFICIONES */
+
+#aficiones {
+    background-color: #fff0f0;
+}
+
+#aficiones h2 {
+    color: #00258b;
+    border-bottom: 2px solid #00648b;
+}
+
+.caja-aficion {
+    background-color: #ffffff;
+    border: 1px solid #55c4cc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+#aficiones h3 {
+    color: #00588b;
+    font-size: 19px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#aficiones .caja-aficion p {
+    color: #222222;
+    margin-bottom: 0;
+}
+
+
+/* SECCIÓN ENLACES RECOMENDADOS */
+
+#enlaces {
+    background-color: #edf8ed;
+}
+
+#enlaces h2 {
+    color: #216b35;
+    border-bottom: 2px solid #216b35;
+}
+
+.caja-enlace {
+    background-color: #ffffff;
+    border: 1px solid #4b9b58;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+#enlaces h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+#enlaces .caja-enlace a {
+    color: #216b35;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#enlaces .caja-enlace a:hover {
+    text-decoration: underline;
+}
+
+#enlaces .caja-enlace p {
+    color: #222222;
+    margin-bottom: 0;
+}
+
+
+/* PIE DE PÁGINA */
+
+footer {
+    background-color: #17365d;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
